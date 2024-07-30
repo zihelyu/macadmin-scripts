@@ -46,7 +46,7 @@ try:
     import xattr
 except ImportError:
     print("This tool requires the Python xattr module. "
-          "Perhaps run `pip install xattr` to install it.")
+          "Perhaps run `pip3 install xattr` to install it.")
     sys.exit(-1)
 
 
